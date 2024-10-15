@@ -56,6 +56,10 @@ users can add, delete, update, and list todos.
 * Docker
 * JUnit and Mockito
 
+# Deployment Docker Hub
+- I deployed the project to docker hub.You can reach us from the link below.
+- https://hub.docker.com/r/yusufkusar34/todo
+
 # Installation
 Prerequisites:
 *  Docker
@@ -64,9 +68,6 @@ Prerequisites:
 ```
 docker-compose up -d
 ```
-# Deployment Docker Hub
-- I deployed the project to docker hub.You can reach us from the link below.
-- https://hub.docker.com/r/yusufkusar34/todo
 
 ### Couchbase UI
 > **Access : http://localhost:8091/**
