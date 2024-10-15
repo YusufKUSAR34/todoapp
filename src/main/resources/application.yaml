@@ -1,0 +1,31 @@
+spring:
+  application:
+    name: todo
+  datasource:
+    initialize: false
+    url: ""
+    driver-class-name: ""
+  data:
+    couchbase:
+      bucket-name: todolist
+      auto-index: true
+  couchbase:
+    connection-string: localhost:11210
+    username: admin
+    password: password
+    bucket:
+      name: todolist
+
+todo:
+  app:
+    secret: todoApp
+  expires:
+    in: 604800
+
+springdoc:
+  api-docs:
+    path: /v3/api-docs
+    enabled: true
+  swagger-ui:
+    path: /swagger-ui.html
+    enable: true
