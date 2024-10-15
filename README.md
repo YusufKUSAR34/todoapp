@@ -64,6 +64,9 @@ Prerequisites:
 ```
 docker-compose up -d
 ```
+# Deployment Docker Hub
+- I deployed the project to docker hub.You can reach us from the link below.
+- https://hub.docker.com/r/yusufkusar34/todo
 
 ### Couchbase UI
 > **Access : http://localhost:8091/**
@@ -82,10 +85,6 @@ docker-compose up -d
 - In step 2, if you type /v3/api-docs in the text box next to explore and click Explore, it will bring up the swagger APIs.
 
 <img src="image/swagger2.JPG" alt="Spring Boot TODO Example Swagger" width="100%" height="100%"/> 
-
-# Deployment Docker Hub
-- I deployed the project to docker hub.You can reach us from the link below.
-- https://hub.docker.com/r/yusufkusar34/todo
 
 # Application Summary
 
